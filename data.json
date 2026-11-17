@@ -1,0 +1,463 @@
+{
+ "sp": [
+  {
+   "name": "Medicine",
+   "icon": "medicine",
+   "color": "#2f6fed",
+   "doctors": [
+    {
+     "role": "First",
+     "name": "Dr. Sample Name",
+     "phone": "2100"
+    },
+    {
+     "role": "Second",
+     "name": "Dr. Sample Name",
+     "phone": "2101"
+    },
+    {
+     "role": "On call",
+     "name": "",
+     "phone": ""
+    }
+   ],
+   "ph": false,
+   "mode": "tier",
+   "lay": "two",
+   "show": {
+    "First": true,
+    "Second": true,
+    "On call": false
+   }
+  },
+  {
+   "name": "Surgery",
+   "icon": "surgery",
+   "color": "#d93b3b",
+   "doctors": [
+    {
+     "role": "First",
+     "name": "Dr. Sample Name",
+     "phone": "2102"
+    },
+    {
+     "role": "Second",
+     "name": "Dr. Sample Name",
+     "phone": "2103"
+    },
+    {
+     "role": "On call",
+     "name": "",
+     "phone": ""
+    }
+   ],
+   "ph": false,
+   "mode": "tier",
+   "lay": "two",
+   "show": {
+    "First": true,
+    "Second": true,
+    "On call": false
+   }
+  },
+  {
+   "name": "Orthopedic",
+   "icon": "ortho",
+   "color": "#c2740a",
+   "doctors": [
+    {
+     "role": "First",
+     "name": "Dr. Sample Name",
+     "phone": "2104"
+    },
+    {
+     "role": "Second",
+     "name": "Dr. Sample Name",
+     "phone": "2105"
+    },
+    {
+     "role": "On call",
+     "name": "",
+     "phone": ""
+    }
+   ],
+   "mode": "tier",
+   "lay": "three",
+   "ph": true,
+   "show": {
+    "First": true,
+    "Second": true,
+    "On call": true
+   }
+  },
+  {
+   "name": "ENT",
+   "icon": "ent",
+   "color": "#8250df",
+   "doctors": [
+    {
+     "role": "First",
+     "name": "Dr. Sample Name",
+     "phone": "2106"
+    },
+    {
+     "role": "Second",
+     "name": "Dr. Sample Name",
+     "phone": "2107"
+    },
+    {
+     "role": "On call",
+     "name": "",
+     "phone": ""
+    }
+   ],
+   "mode": "tier",
+   "lay": "three",
+   "ph": true,
+   "show": {
+    "First": true,
+    "Second": true,
+    "On call": true
+   }
+  },
+  {
+   "name": "Ophthalmology",
+   "icon": "eye",
+   "color": "#0e8fb0",
+   "doctors": [
+    {
+     "role": "First",
+     "name": "Dr. Sample Name",
+     "phone": "2108"
+    },
+    {
+     "role": "Second",
+     "name": "Dr. Sample Name",
+     "phone": "2109"
+    },
+    {
+     "role": "On call",
+     "name": "",
+     "phone": ""
+    }
+   ],
+   "mode": "tier",
+   "lay": "three",
+   "ph": true,
+   "show": {
+    "First": true,
+    "Second": true,
+    "On call": true
+   }
+  },
+  {
+   "name": "Nephrology",
+   "icon": "kidney",
+   "color": "#8a5a3c",
+   "doctors": [
+    {
+     "role": "First",
+     "name": "Dr. Sample Name",
+     "phone": "2110"
+    },
+    {
+     "role": "Second",
+     "name": "Dr. Sample Name",
+     "phone": "2111"
+    },
+    {
+     "role": "On call",
+     "name": "",
+     "phone": ""
+    }
+   ],
+   "mode": "tier",
+   "lay": "three",
+   "ph": false,
+   "show": {
+    "First": true,
+    "Second": true,
+    "On call": true
+   }
+  },
+  {
+   "name": "Cardiology",
+   "icon": "heart",
+   "color": "#c2185b",
+   "doctors": [
+    {
+     "role": "First",
+     "name": "Dr. Sample Name",
+     "phone": "2112"
+    },
+    {
+     "role": "Second",
+     "name": "Dr. Sample Name",
+     "phone": "2113"
+    },
+    {
+     "role": "On call",
+     "name": "",
+     "phone": ""
+    }
+   ],
+   "ph": false,
+   "mode": "tier",
+   "lay": "two",
+   "show": {
+    "First": true,
+    "Second": true,
+    "On call": false
+   }
+  },
+  {
+   "name": "Pediatrics",
+   "icon": "peds",
+   "color": "#2e9e4f",
+   "doctors": [
+    {
+     "role": "First",
+     "name": "Dr. Sample Name",
+     "phone": "2114"
+    },
+    {
+     "role": "Second",
+     "name": "Dr. Sample Name",
+     "phone": "2115"
+    },
+    {
+     "role": "On call",
+     "name": "",
+     "phone": ""
+    }
+   ],
+   "ph": false,
+   "mode": "tier",
+   "lay": "two",
+   "show": {
+    "First": true,
+    "Second": true,
+    "On call": false
+   }
+  },
+  {
+   "name": "Gyne",
+   "icon": "gyne",
+   "color": "#d6489a",
+   "doctors": [
+    {
+     "role": "First",
+     "name": "Dr. Sample Name",
+     "phone": "2116"
+    },
+    {
+     "role": "Second",
+     "name": "Dr. Sample Name",
+     "phone": "2117"
+    },
+    {
+     "role": "On call",
+     "name": "",
+     "phone": ""
+    }
+   ],
+   "ph": false,
+   "mode": "tier",
+   "lay": "two",
+   "show": {
+    "First": true,
+    "Second": true,
+    "On call": false
+   }
+  },
+  {
+   "name": "Pediatric Surgery",
+   "icon": "pedsurg",
+   "color": "#3a8fd8",
+   "doctors": [
+    {
+     "role": "First",
+     "name": "Dr. Sample Name",
+     "phone": "2118"
+    },
+    {
+     "role": "Second",
+     "name": "Dr. Sample Name",
+     "phone": "2119"
+    },
+    {
+     "role": "On call",
+     "name": "",
+     "phone": ""
+    }
+   ],
+   "ph": false,
+   "mode": "tier",
+   "lay": "two",
+   "show": {
+    "First": true,
+    "Second": true,
+    "On call": false
+   }
+  },
+  {
+   "name": "Dental",
+   "icon": "dental",
+   "color": "#5f7f9f",
+   "doctors": [
+    {
+     "role": "First",
+     "name": "Dr. Sample Name",
+     "phone": "2120"
+    },
+    {
+     "role": "Second",
+     "name": "Dr. Sample Name",
+     "phone": "2121"
+    },
+    {
+     "role": "On call",
+     "name": "",
+     "phone": ""
+    }
+   ],
+   "mode": "tier",
+   "lay": "three",
+   "ph": true,
+   "show": {
+    "First": true,
+    "Second": true,
+    "On call": true
+   }
+  },
+  {
+   "name": "Dermatology",
+   "icon": "derm",
+   "color": "#e0663a",
+   "doctors": [
+    {
+     "role": "First",
+     "name": "Dr. Sample Name",
+     "phone": "2122"
+    },
+    {
+     "role": "Second",
+     "name": "Dr. Sample Name",
+     "phone": "2123"
+    },
+    {
+     "role": "On call",
+     "name": "",
+     "phone": ""
+    }
+   ],
+   "mode": "tier",
+   "lay": "three",
+   "ph": true,
+   "show": {
+    "First": true,
+    "Second": true,
+    "On call": true
+   }
+  },
+  {
+   "name": "Psychiatry",
+   "icon": "psych",
+   "color": "#5c4bb8",
+   "doctors": [
+    {
+     "role": "First",
+     "name": "Dr. Sample Name",
+     "phone": "2124"
+    },
+    {
+     "role": "Second",
+     "name": "Dr. Sample Name",
+     "phone": "2125"
+    },
+    {
+     "role": "On call",
+     "name": "",
+     "phone": ""
+    }
+   ],
+   "mode": "tier",
+   "lay": "three",
+   "ph": true,
+   "show": {
+    "First": true,
+    "Second": true,
+    "On call": true
+   }
+  }
+ ],
+ "ex": [
+  {
+   "name": "PRO",
+   "icon": "pro",
+   "phone": "1101",
+   "color": "#5f7f9f"
+  },
+  {
+   "name": "Bed Manager",
+   "icon": "bed",
+   "phone": "1102",
+   "color": "#2e9e4f"
+  },
+  {
+   "name": "Cleaner",
+   "icon": "clean",
+   "phone": "1103",
+   "color": "#0e8fb0"
+  },
+  {
+   "name": "LAB",
+   "icon": "lab",
+   "phone": "1104",
+   "color": "#8250df"
+  },
+  {
+   "name": "CT",
+   "icon": "ct",
+   "phone": "1105",
+   "color": "#d93b3b"
+  },
+  {
+   "name": "US",
+   "icon": "us",
+   "phone": "1106",
+   "color": "#c2740a"
+  },
+  {
+   "name": "XR",
+   "icon": "xr",
+   "phone": "1107",
+   "color": "#3a8fd8"
+  }
+ ],
+ "ext2Title": "More Extensions",
+ "ex2": [
+  {
+   "name": "Pharmacy",
+   "icon": "pro",
+   "phone": "1201",
+   "color": "#2e9e4f"
+  },
+  {
+   "name": "Security",
+   "icon": "pro",
+   "phone": "1202",
+   "color": "#d93b3b"
+  },
+  {
+   "name": "Blood Bank",
+   "icon": "lab",
+   "phone": "1203",
+   "color": "#c2185b"
+  }
+ ],
+ "title": "Emergency Department · On-Call Doctors",
+ "extTitle": "Extensions",
+ "zoom": 1,
+ "v3": 1
+}
